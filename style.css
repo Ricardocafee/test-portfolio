@@ -425,6 +425,8 @@ section {
     line-height: 20px;
     color: white;
     font-weight: bold;
+    width: 0%; /* Start at 0% width */
+    transition: width 2s ease-out; /* Smooth transition when the width changes */
 }
 
 
@@ -865,3 +867,23 @@ footer p {
 }
 
 
+.hidden-about {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.revealed-about {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Revealed state with animation */
+.revealed-timeline {
+  animation: movedown 1s linear forwards;
+}
+
+.hidden-container {
+  opacity: 0;
+  transform: translateY(-20px);
+}

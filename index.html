@@ -69,19 +69,19 @@
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <p class="section__text__p1 hidden-about">Get To Know More</p>
+      <h1 class="title hidden-about">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
             src="./assets/marta-gala-white.jpeg"
             alt="Profile picture"
-            class="about-pic"
+            class="about-pic hidden-about"
           />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
-            <div class="details-container">
+            <div class="details-container hidden-about">
               <img
                 src="./assets/experience.png"
                 alt="Experience icon"
@@ -90,7 +90,7 @@
               <h3>Experience</h3>
               <p>3 years <br />Employer Branding & Onboarding</p>
             </div>
-            <div class="details-container">
+            <div class="details-container hidden-about">
               <img
                 src="./assets/education.png"
                 alt="Education icon"
@@ -101,7 +101,7 @@
  Organizational Consulting</p>
             </div>
           </div>
-          <div class="text-container">
+          <div class="text-container hidden-about">
             <p>
                Human Resources professional with a strong academic foundation in HR Management and Organizational Consulting, seeking to leverage expertise in talent development, organizational change, and strategic HR initiatives to drive positive transformation within dynamic and people-centric environments. Passionate about aligning human capital with business goals and fostering inclusive, high-performing cultures.
             </p>
@@ -116,12 +116,12 @@
       />
     </section>
     <section id="education">
-     <p class="section__text__p1">An Overview About My</p>
-      <h1 class="title">Education</h1>
+     <p class="section__text__p1 hidden-about">An Overview About My</p>
+      <h1 class="title hidden-about">Education</h1>
       <div class="section-container">
       <div class="education-grid">
-            <div class="education-column">
-             <h2 class="education-sub-title">Certificates</h2>
+            <div class="education-column hidden-about">
+             <h2 class="education-sub-title hidden-about">Certificates</h2>
                 <div class="education-item">
                     <div class="education-info-container">
                         <img src="./assets/iscte-logo.jpg" alt="Iscte logo">
@@ -145,37 +145,38 @@
                     </div>
                 </div>
             </div>
-            <div class="education-column">
-                <h2 class="experience-sub-title">Main Subjects</h2>
+            <div class="education-column hidden-about">
+                <h2 class="experience-sub-title hidden-about">Main Subjects</h2>
                 <div class="subject-list">
                     <div class="subject">
                         <div class="subject-name">Master's Thesis</div>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 90%;">18</div>
+                             <div class="progress" data-target="90" style="width: 0%;">18</div>
                         </div>
                     </div>
                     <div class="subject">
                         <div class="subject-name">Current Chanllenges in HR Managemnet</div>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 80%;">17</div>
+                        <div class="progress" data-target="85" style="width: 0%;">17</div>
+
                         </div>
                     </div>
                     <div class="subject">
                         <div class="subject-name"> Consulting and Diagnosis Techniques</div>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 80%;">16</div>
+                            <div class="progress" data-target="80" style="width: 0%;">16</div>
                         </div>
                     </div>
                     <div class="subject">
                         <div class="subject-name">Leadership Development, Decision Processes & Negotiation</div>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 80%;">16</div>
+                            <div class="progress" data-target="80" style="width: 0%;">16</div>
                         </div>
                     </div>
                     <div class="subject">
                         <div class="subject-name">Quantitative Data Analysis</div>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 80%;">16</div>
+                              <div class="progress" data-target="80" style="width: 0%;">16</div>
                         </div>
                     </div>
                 </div>
@@ -190,10 +191,10 @@
       </div>
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <p class="section__text__p1 hidden-about">Explore My</p>
+      <h1 class="title hidden-about">Experience</h1>
       <div class="timeline">
-        <div class="container left-container">
+        <div class="container left-container hidden-about">
         <img src="./assets/ijc-iscte.jpg" class="image-shadow">
           <div class="text-box">
           <div class="margin-container-left">
@@ -208,7 +209,7 @@
            <span class="left-container-arrow"></span>
           </div>
         </div>
-        <div class="container right-container">
+        <div class="container right-container hidden-about">
         <img src="./assets/meo-logo.png" class="image-shadow">
           <div class="text-box">
           <div class="margin-container-right">
@@ -222,7 +223,7 @@
            <span class="right-container-arrow"></span>
           </div>
         </div>
-        <div class="container left-container">
+        <div class="container left-container hidden-about">
         <img src="./assets/meo-logo.png" class="image-shadow">
           <div class="text-box">
           <div class="margin-container-left">
@@ -245,28 +246,28 @@
       />
     </section>
     <section id="skills">
-    <p class="section__text__p1">Discover My</p>
-      <h1 class="title" style="margin-bottom: 50px;">Profile</h1>
+    <p class="section__text__p1 hidden-about">Discover My</p>
+      <h1 class="title hidden-about" style="margin-bottom: 50px;">Profile</h1>
      <div class="container-col">
    
-       <div class="column-exp">
+       <div class="column-exp hidden-about">
      <div class="title-exp">Average of</div>
-      <div class="highlight-number">6000</div>
+      <div class="highlight-number" data-target="6000">1000</div>
       <div class="highlight-text">impressions</div>
       <div class="subtitle-exp"> per personal LinkedIn post</div>
       </div>
 
-           <div class="column-exp">
+           <div class="column-exp hidden-about">
      <div class="title-exp">Development of</div>
-      <div class="highlight-number">3</div>
+      <div class="highlight-number" data-target="3">0</div>
       <div class="highlight-text">workshops</div>
       <div class="subtitle-exp">about integration of people with disabilities</div>
 <div class="subtitle-exp">and training to their teams</div>
       </div>
 
-      <div class="column-exp">
+      <div class="column-exp hidden-about">
      <div class="title-exp">Recruited for over</div>
-      <div class="highlight-number">100+</div>
+      <div class="highlight-number" data-target="100">10</div>
       <div class="highlight-text">positions</div>
       <div class="subtitle-exp">across multiple business areas</div>
       </div>
@@ -274,7 +275,7 @@
      </div>
 
 <div class="container-col">
-    <div class="column-exp">
+    <div class="column-exp hidden-about">
     <div>
               <img
                 src="./assets/job-fair-marta.jpg"
@@ -294,17 +295,17 @@
 
      <div class="container-col">
    
-       <div class="column-exp">
+       <div class="column-exp hidden-about">
      <div class="title-exp">Participation in over</div>
-      <div class="highlight-number">7</div>
+      <div class="highlight-number" data-target="7">0</div>
       <div class="highlight-text">job affairs</div>
      <div class="subtitle-exp">across faculties from diverse academic fields</div>
          <div class="subtitle-exp">each semester</div>
       </div>
 
-               <div class="column-exp">
+               <div class="column-exp hidden-about">
      <div class="title-exp">Participation in over</div>
-      <div class="highlight-number">4</div>
+      <div class="highlight-number" data-target="4">0</div>
       <div class="highlight-text">bootcamps</div>
      <div class="subtitle-exp">across faculties from diverse academic fields</div>
          <div class="subtitle-exp">each semester</div>
@@ -321,9 +322,9 @@
     </section>
 
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
+      <p class="section__text__p1 hidden-about">Get in Touch</p>
+      <h1 class="title hidden-about">Contact Me</h1>
+      <div class="contact-info-upper-container hidden-about">
         <div class="contact-info-container">
           <img
             src="./assets/email.png"
@@ -344,7 +345,7 @@
     </section>
     <footer>
       <nav>
-        <div class="nav-links-container">
+        <div class="nav-links-container hidden-about">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
@@ -354,7 +355,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2025 Ana Marta Fialho. All Rights Reserved.</p>
+      <p class="hidden-about">Copyright &#169; 2025 Ana Marta Fialho. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
