@@ -52,6 +52,10 @@
     #experience, .title {
     margin-bottom: 2rem;
 }
+
+.about-pic-col{
+  width: 350px;
+}
 }
 
 @media screen and (max-width: 1000px) {
