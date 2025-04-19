@@ -451,20 +451,20 @@ section {
 }
 
 .title-exp {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       color: #555;
       margin-bottom: 10px;
     }
 
     .highlight-number {
-      font-size: 3.2rem;
+      font-size: 2.6rem;
       color: black;
       font-weight: bold;
       margin-bottom: -8px;
     }
 
     .highlight-text {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       color: black;
       font-weight: bold;
       margin-top: -50px;
@@ -472,7 +472,7 @@ section {
     }
 
     .subtitle-exp {
-      font-size: 1.4rem;
+      font-size: 1.1rem;
       color: #555;
       margin-top: 12px;
     }
