@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ana Marta Fialho</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Profile</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ana Marta Fialho</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Profile</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/marta-cv-modified.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ana Marta Fialho</h1>
+        <p class="section__text__p2">Employer Branding & Onboarding</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/ricardo_cv.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/marta-santos-01908324a/'"
+          />
+        
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/marta-gala-white.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3 years <br />Employer Branding & Onboarding</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree - Business Management<br />M.Sc. Masters Degree - Human Resources Management and
+ Organizational Consulting</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+               Human Resources professional with a strong academic foundation in HR Management and Organizational Consulting, seeking to leverage expertise in talent development, organizational change, and strategic HR initiatives to drive positive transformation within dynamic and people-centric environments. Passionate about aligning human capital with business goals and fostering inclusive, high-performing cultures.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#education'"
+      />
+    </section>
+    <section id="education">
+     <p class="section__text__p1">An Overview About My</p>
+      <h1 class="title">Education</h1>
+      <div class="section-container">
+      <div class="education-grid">
+            <div class="education-column">
+             <h2 class="education-sub-title">Certificates</h2>
+                <div class="education-item">
+                    <div class="education-info-container">
+                        <img src="./assets/iscte-logo.jpg" alt="Iscte logo">
+                        <h3>ISCTE - Instituto Universitário de Lisboa</h3>
+                        <h4>Top 50 - Financial Times European Business Schools</h4>
+                    </div>
+                    <div class="education-info-container">
+                        <div class="education-info">
+                            <h3>Bachelor's Degree</h3>
+                            <p>Business Management</p>
+                            <p>Grade: 14 (Scale of 0 to 20)</p>
+                            <p>Year: 2018 - 2021</p>
+                        </div>
+                        <div class="education-info">
+                            <h3>Master's Degree</h3>
+                            <p>Human Resources Management and
+ Organizational Consulting</p>
+                            <p>Grade: 17 (Scale of 0 to 20)</p>
+                            <p>Year: 2021 - 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="education-column">
+                <h2 class="experience-sub-title">Main Subjects</h2>
+                <div class="subject-list">
+                    <div class="subject">
+                        <div class="subject-name">Master's Thesis</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;">18</div>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="subject-name">Current Chanllenges in HR Managemnet</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;">17</div>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="subject-name"> Consulting and Diagnosis Techniques</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;">16</div>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="subject-name">Leadership Development, Decision Processes & Negotiation</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;">16</div>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <div class="subject-name">Quantitative Data Analysis</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;">16</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="timeline">
+        <div class="container left-container">
+        <img src="./assets/ijc-iscte.jpg" class="image-shadow">
+          <div class="text-box">
+          <div class="margin-container-left">
+          <div style="padding: 15px;">
+           <h2>ISCTE Junior Consulting</h2>
+           <small>06/2021 - 06/2022</small>
+           <h3>Talent Acquisition & CSR Project Coordinator</h3>
+           <p>Led recruitment and selection processes and coordinated sustainability and social responsibility initiatives at ISCTE Junior Enterprise, enhancing talent acquisition and promoting impactful, purpose-driven projects through strategic communication and cross-functional collaboration.</p>
+
+           </div>
+           </div>
+           <span class="left-container-arrow"></span>
+          </div>
+        </div>
+        <div class="container right-container">
+        <img src="./assets/meo-logo.png" class="image-shadow">
+          <div class="text-box">
+          <div class="margin-container-right">
+          <div style="padding: 15px;">
+           <h2>MEO - Altice Portugal</h2>
+           <small>07/2022 - 07/2023</small>
+            <h3> Trainee - Talent Acquisition and Employer Branding</h3>
+           <p>Supported talent acquisition, employer branding, and onboarding initiatives by recruiting over 60 interns and trainees annually, designing inclusive recruitment programs, coordinating job fairs and university events, and delivering workshops on disability inclusion and team training, contributing to a strong and impactful early talent strategy.</p>
+           </div>
+           </div>
+           <span class="right-container-arrow"></span>
+          </div>
+        </div>
+        <div class="container left-container">
+        <img src="./assets/meo-logo.png" class="image-shadow">
+          <div class="text-box">
+          <div class="margin-container-left">
+           <div style="padding: 15px;">
+           <h2>MEO - Altice Portugal</h2>
+           <small>07/2023 - At the moment</small>
+           <h3>Employer Branding & Onboarding</h3>
+           <p> I have successfully led the recruitment and onboarding of over 100 interns and trainees annually, developed and executed inclusive recruitment programs, and managed strategic partnerships with universities, while also designing and delivering workshops on diversity and inclusion, and overseeing follow-up activities to ensure the development and integration of new hires.</p>
+           </div>
+           </div>
+           <span class="left-container-arrow"></span>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+    <p class="section__text__p1">Discover My</p>
+      <h1 class="title" style="margin-bottom: 50px;">Profile</h1>
+     <div class="container-col">
+   
+       <div class="column-exp">
+     <div class="title-exp">Average of</div>
+      <div class="highlight-number">6000</div>
+      <div class="highlight-text">impressions</div>
+      <div class="subtitle-exp"> per personal LinkedIn post</div>
+      </div>
+
+           <div class="column-exp">
+     <div class="title-exp">Development of</div>
+      <div class="highlight-number">3</div>
+      <div class="highlight-text">workshops</div>
+      <div class="subtitle-exp">about integration of people with disabilities</div>
+<div class="subtitle-exp">and training to their teams</div>
+      </div>
+
+      <div class="column-exp">
+     <div class="title-exp">Recruited for over</div>
+      <div class="highlight-number">100+</div>
+      <div class="highlight-text">positions</div>
+      <div class="subtitle-exp">across multiple business areas</div>
+      </div>
+      
+     </div>
+
+<div class="container-col">
+    <div class="column-exp">
+    <div>
+              <img
+                src="./assets/job-fair-marta.jpg"
+                alt="Profile picture"
+                class="about-pic-col"
+              />
+
+<img style="width: 270px;">
+                <img
+                src="./assets/bootcamp-marta (1) (1).jpg"
+                alt="Profile picture"
+                class="about-pic-col"
+              />
+            </div>
+    </div>
+  </div>
+
+     <div class="container-col">
+   
+       <div class="column-exp">
+     <div class="title-exp">Participation in over</div>
+      <div class="highlight-number">7</div>
+      <div class="highlight-text">job affairs</div>
+     <div class="subtitle-exp">across faculties from diverse academic fields</div>
+         <div class="subtitle-exp">each semester</div>
+      </div>
+
+               <div class="column-exp">
+     <div class="title-exp">Participation in over</div>
+      <div class="highlight-number">4</div>
+      <div class="highlight-text">bootcamps</div>
+     <div class="subtitle-exp">across faculties from diverse academic fields</div>
+         <div class="subtitle-exp">each semester</div>
+      </div>
+
+      
+     </div>
+       <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">amartasfialho@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/marta-santos-01908324a/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Ana Marta Fialho. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
